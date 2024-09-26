@@ -1,12 +1,5 @@
 fn main() {
-    let x = 4;
-    println!("The value of x is {}", x);
+    const SECONDS_IN_MINUTES: u32 = 100;
 
-    {
-        let y = 7;
-        println!("The value of y is {}", y);
-    }
-
-    let x = 5;
-    println!("The value of x is {}", x);
+    println!("{}", SECONDS_IN_MINUTES);
 }
